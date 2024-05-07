@@ -16,8 +16,7 @@ This repository contains the code and data related to our research paper, "Do La
    3. [Manual Testing with Multi-turn Prompts](#manual-testing-with-multi-turn-prompts)
 3. [Results](#results)
 4. [Conclusion](#conclusion)
-5. [Acknowledgements](#acknowledgements)
-6. [References](#references)
+5. [References](#references)
 
 
 ### Introduction
@@ -56,10 +55,6 @@ Our findings indicated that ChatGPT performed better on average in generating hi
 ### Conclusion
 
 LLMs have demonstrated impressive capabilities in generating code but also have vulnerabilities such as identifier swaps that pose challenges to software quality and security. The phenomenon of confidence in wrong code raises concerns about the scalability of LLMs in professional programming environments.
-
-### Acknowledgements
-
-This work was supported by GCP Credits (Grant No. GCP297941264, and Grant No. IP/IITGN/CSE/SM/2324/02) from IIT Gandhinagar.
 
 ### References
 

@@ -19,7 +19,7 @@ This repository contains the code and data related to our research paper, "Do La
 4. [Conclusion](#conclusion)
 5. [Acknowledgements](#acknowledgements)
 6. [References](#references)
-7. [License](#license)
+
 
 ### Introduction
 
@@ -67,10 +67,5 @@ This work was supported by GCP Credits (Grant No. GCP297941264, and Grant No. IP
 2. [The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python](https://doi.org/10.18653/v1/2023.findings-acl.19).
 3. [LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations](https://doi.org/10.1109/MSR59073.2023.00084).
 
-### License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
-This README now includes all three images in relevant positions using Markdown.

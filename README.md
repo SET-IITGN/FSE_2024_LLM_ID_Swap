@@ -1,4 +1,3 @@
-Here's the updated README with the images added using Markdown:
 
 ---
 
@@ -26,6 +25,7 @@ This repository contains the code and data related to our research paper, "Do La
 In recent years, Large Language Models (LLMs) have shown remarkable advancements in natural language processing and code generation. However, their ability to write correct and secure code, particularly when it involves swapping identifiers, remains under scrutiny. This project aims to evaluate the code generation capabilities of LLMs using a diverse dataset and rigorous quality assessments.
 
 ### Methodology
+The workflow we have proposed is:
 ![Workflow](llm_codegen_idswap.png)
 #### Dataset Generation
 

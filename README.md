@@ -42,7 +42,7 @@ We used Pylint, a static code analysis tool, to evaluate the quality of the gene
 
 #### Manual Testing with Multi-turn Prompts
 
-To further assess the code snippets, we conducted manual multi-turn prompting to evaluate the models' ability to maintain context (provided in the first turn) and coherence. The multi-turn conversation begins is a new session with the same LLM that generated the code. This session was conducted particularly for code snippets containing built-in functions, challenging the LLMs over sequential coding prompts.
+To further assess the code snippets, we conducted manual multi-turn prompting to evaluate the models' ability to maintain context (provided in the first turn) and coherence. The multi-turn conversation begins in a new session with the same LLM that generated the code. This session was conducted particularly for code snippets containing built-in functions, challenging the LLMs over sequential coding prompts.
 
 
 

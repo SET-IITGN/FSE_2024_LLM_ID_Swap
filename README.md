@@ -54,7 +54,8 @@ Our findings indicated that ChatGPT performed better on average in generating hi
 
 ### Conclusion
 
-LLMs have demonstrated impressive capabilities in generating code but also have vulnerabilities such as identifier swaps that pose challenges to software quality and security. The phenomenon of confidence in wrong code raises concerns about the scalability of LLMs in professional programming environments.
+LLMs have demonstrated impressive capabilities in generating code but also have vulnerabilities such as identifier swaps that pose challenges to software quality and security. The phenomenon of confidence in wrong code raises questions about
+the scalability of LLMs in code generation tasks and their reliability in professional programming environments.
 
 ### References And Files
 

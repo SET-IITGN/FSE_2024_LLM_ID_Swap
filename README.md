@@ -47,7 +47,8 @@ We used Pylint, a static code analysis tool, to evaluate the quality of the gene
 
 To further assess the code snippets, we conducted manual multi-turn prompting (in a different session) to evaluate the models' ability to maintain context (provided in the first turn) and coherence. Note that this multi-turn conversation begins in a new session with the same LLM that generated the code. This session was conducted particularly for code snippets containing built-in functions, challenging the LLMs over sequential coding prompts.
 
-<img src="Multi_Turn_Prompting_Analysis_ChatGPT.png" alt="LLM Performance" width="500" class="center"/><img src="Multi_Turn_Prompting_Analysis_Gemini.png" alt="LLM Performance" width="500" class="center"/>
+<img src="Multi_Turn_Prompting_Analysis_ChatGPT.png" alt="LLM Performance" width="500" class="center"/>
+<img src="Multi_Turn_Prompting_Analysis_Gemini.png" alt="LLM Performance" width="500" class="center"/>
 
 **75.8\% of the tested prompts from ChatGPT 3.5 displayed confidence in wrong code (LLM response: ``output is same even with identifier swap''). A lesser percentage of 54.5\% was noted in Gemini’s outputs.** Our findings indicate that ChatGPT performes better on average in generating high-quality Python code compared to Bard and Gemini. However, Gemini showes relative robustness over ChatGPT in handling built-in identifier swaps. 
 

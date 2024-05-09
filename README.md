@@ -14,8 +14,7 @@ This repository contains the code and data related to our research paper, "Do La
    1. [Dataset Generation](#dataset-generation)
    2. [Code Quality](#code-quality)
    3. [Manual Testing with Multi-turn Prompts](#manual-testing-with-multi-turn-prompts)
-3. [Takeaway](#takeaway)
-4. [Conclusion](#conclusion)
+3. [Conclusion](#conclusion)
 5. [References](#references)
 
 
@@ -31,7 +30,7 @@ The workflow we have proposed is:
 
 #### Dataset Generation
 
-The dataset used in this study includes a variety of coding tasks designed to challenge the code generation capabilities of LLMs. The data was collected from ChatGPT-3.5, legacy Bard, and Gemini Pro. Each prompt was aimed at generating code snippets in Python, and our focus was on the ability of these models to recognize identifier swaps.
+The dataset used in this study includes a variety of coding tasks designed to challenge the code generation capabilities of LLMs. The data was collected from ChatGPT-3.5 (```text-davinci-002-render-sha```), Bard (legacy), and Gemini (```1.0-pro-001```). Each prompt was aimed at generating code snippets in Python, and our focus was on the ability of these models to recognize identifier swaps.
 
 #### Code Quality
 
@@ -50,10 +49,7 @@ To further assess the code snippets, we conducted manual multi-turn prompting (i
 
 <img src="Multi_Turn_Prompting_Analysis_ChatGPT.png" alt="LLM Performance" width="500" class="center"/><img src="Multi_Turn_Prompting_Analysis_Gemini.png" alt="LLM Performance" width="500" class="center"/>
 
-
-### Takeaway
-
-Our findings indicated that ChatGPT performed better on average in generating high-quality Python code compared to Bard and Gemini. However, Gemini showed relative robustness over ChatGPT in handling built-in identifier swaps. 
+**75.8\% of the tested prompts from ChatGPT 3.5 displayed confidence in wrong code (LLM response: ``output is same even with identifier swap''). A lesser percentage of 54.5\% was noted in Gemini’s outputs.** Our findings indicate that ChatGPT performes better on average in generating high-quality Python code compared to Bard and Gemini. However, Gemini showes relative robustness over ChatGPT in handling built-in identifier swaps. 
 
 ### Conclusion
 
@@ -61,8 +57,9 @@ LLMs have demonstrated impressive capabilities in generating code but also have 
 
 ### References
 
-1. [The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python](https://doi.org/10.18653/v1/2023.findings-acl.19).
-2. [LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations](https://github.com/tuhh-softsec/LLMSecEval.git).
+1. [LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations](https://github.com/tuhh-softsec/LLMSecEval.git).
+2. [The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python](https://doi.org/10.18653/v1/2023.findings-acl.19).
+
 
 ---
 

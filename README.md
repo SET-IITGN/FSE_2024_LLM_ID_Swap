@@ -14,7 +14,7 @@ This repository contains the code and data related to our research paper, "Do La
    1. [Dataset Generation](#dataset-generation)
    2. [Code Quality](#code-quality)
    3. [Manual Testing with Multi-turn Prompts](#manual-testing-with-multi-turn-prompts)
-3. [Results](#results)
+3. [Takeaway](#takeaway)
 4. [Conclusion](#conclusion)
 5. [References](#references)
 
@@ -41,21 +41,19 @@ We used Pylint, a static code analysis tool, to evaluate the quality of the gene
 2. **Moderate Quality**: Pylint score between 3 and 7.
 3. **Low Quality**: Pylint score less than 3.
 
-<img src="median_pylint_scores.png" alt="LLM Code Quality" width="300" class="center"/>
+<img src="median_pylint_scores.png" alt="LLM Code Quality" width="305" class="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="llm_performance_compare.png" alt="LLM Performance" width="315" class="center"/>
+
 
 #### Manual Testing with Multi-turn Prompts
 
 To further assess the code snippets, we conducted manual multi-turn prompting (in a different session) to evaluate the models' ability to maintain context (provided in the first turn) and coherence. Note that this multi-turn conversation begins in a new session with the same LLM that generated the code. This session was conducted particularly for code snippets containing built-in functions, challenging the LLMs over sequential coding prompts.
 
-<img src="Multi_Turn_Prompting_Analysis_ChatGPT.png" alt="LLM Performance" width="300" class="center"/><img src="Multi_Turn_Prompting_Analysis_Gemini.png" alt="LLM Performance" width="300" class="center"/>
+<img src="Multi_Turn_Prompting_Analysis_ChatGPT.png" alt="LLM Performance" width="500" class="center"/><img src="Multi_Turn_Prompting_Analysis_Gemini.png" alt="LLM Performance" width="500" class="center"/>
 
 
-### Results
+### Takeaway
 
 Our findings indicated that ChatGPT performed better on average in generating high-quality Python code compared to Bard and Gemini. However, Gemini showed relative robustness over ChatGPT in handling built-in identifier swaps. 
-
-<img src="llm_performance_compare.png" alt="LLM Performance" width="300" class="center"/>
-
 
 ### Conclusion
 

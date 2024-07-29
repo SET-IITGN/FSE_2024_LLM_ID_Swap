@@ -61,6 +61,25 @@ LLMs have demonstrated impressive capabilities in generating code but also have 
 1. [LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations](https://github.com/tuhh-softsec/LLMSecEval.git).
 2. [The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python](https://doi.org/10.18653/v1/2023.findings-acl.19).
 
+## Citation
+```bash
+@inproceedings{10.1145/3663529.3663869,
+author = {Chavan, Sagar Bhikan and Mondal, Shouvick},
+title = {Do Large Language Models Recognize Python Identifier Swaps in Their Generated Code?},
+year = {2024},
+isbn = {9798400706585},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3663529.3663869},
+doi = {10.1145/3663529.3663869},
+booktitle = {Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering},
+pages = {663–664},
+numpages = {2},
+keywords = {Gemini Pro, LLMs, Python Identifier Swap},
+location = {Porto de Galinhas, Brazil},
+series = {FSE 2024}
+}
+```
 
 ---
 
